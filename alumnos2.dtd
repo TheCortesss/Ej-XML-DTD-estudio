@@ -1,0 +1,6 @@
+<!ELEMENT estudiantes (alumno+)>
+<!ELEMENT alumno (edad)>
+<!ATTLIST alumno nom CDATA #REQUIRED>
+<!ATTLIST alumno exp CDATA #REQUIRED>
+<!ATTLIST alumno edad CDATA #REQUIRED>
+<!ELEMENT edad (#PCDATA)>
